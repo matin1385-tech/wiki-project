@@ -1,0 +1,35 @@
+body {
+  font-family: 'Inter', sans-serif;
+  padding-top: 70px;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+.navbar-brand, .nav-link, .btn {
+  font-weight: 500;
+}
+
+input.form-control {
+  background-color: #1e1e1e;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+input.form-control::placeholder {
+  color: #aaa;
+}
+
+main.container {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
